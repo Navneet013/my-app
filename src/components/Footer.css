@@ -1,0 +1,239 @@
+.final {
+    width: 100%;
+    height: 480.81px;
+    background-color: #F8F8F8;
+}
+.final1 {
+    width: 1100px;
+    height: 480.81px;
+    padding: 48px 0px 22px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12.5rem;
+}
+.lang {
+    width: 1100px;
+    height: 37.61px;
+    margin: 0px 0px 40px;
+    display: flex;
+}
+.img100 {
+    width: 132px;
+    height: 28px;
+    padding-top: 5px;
+}
+.img101 {
+    width: 132px;
+    height: 28px;
+}
+.loc100 {
+    width: 252.08px;
+    height: 37.61px;
+    margin-left: 44.7rem;
+    display: flex;
+}
+.country {
+    width: 109.36px;
+    height: 37.61px;
+    padding: 3px 7px;
+    border: 1px solid rgb(181,181,181);
+    border-radius: 6px;
+    display: flex;
+}
+.img200 {
+    width: 22px;
+    height: 14.67px;
+    margin-right: 12px;
+    margin-top: 7px;
+}
+.img201 {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 12px
+}
+.countryname {
+    width: 40.76px;
+    height: 20px;
+    margin: 0px 5px 0px 0px;
+}
+.countryname1 {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(28,28,28);
+    margin-top: 2px;
+}
+.any {
+    height: 15px;
+    width: 15px;
+}
+.any1 {
+    height: 100%;
+    width: 100%;
+}
+.lang1 {
+    width: 122.71px;
+    height: 37.6px;
+    padding: 7px;
+    margin-left: 20px;
+    border: 1px solid rgb(181,181,181);
+    border-radius: 6px;
+    display: flex;
+}
+.logo90 {
+    height: 18px;
+    width: 18px;
+}
+.logo91 {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.lang20 {
+    width: 61.11px;
+    height: 20px;
+    margin: 2px 5px 0px 8px;
+}
+.lang21 {
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(28,28,28);
+    transform: translateY(-4px);
+}
+.any2 {
+    height: 15px;
+    width: 15px;
+}
+.any3 {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.final2 {
+    height: 212.4px;
+    width: 1100px;
+    display: flex;
+}
+.phela {
+    height: 100%;
+    width: 201.66px;
+    display: flex;
+    flex-direction: column;
+}
+.phela1 {
+    width: 100%;
+    height: 177px;
+    display: flex;
+    flex-direction: column;
+}
+.doosra {
+    height: 100%;
+    width: 210.83px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+.teesra {
+    height: 100%;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+.chautha {
+    height: 100%;
+    width: 183.33px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+.phanchva {
+    height: 100%;
+    width: 201.66px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+.fifth1 {
+    width: 100%;
+    height: 22px;
+    display: flex;
+}
+.fifth2 {
+    width: 100%;
+    height: 0px;
+    margin-top: 12px;
+}
+.fifth3 {
+    height: 92px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.abt {
+    width: 100%;
+    height: 18.4px;
+    margin: 0px 0px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: okra,helvetica,sans-serif;
+    color: #000000;
+}
+.abt1 {
+    width: 100%;
+    height: 21px;
+    margin: 5px 0px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: okra,helvetica,sans-serif;
+    color: #696969;
+    text-decoration: none;
+}
+.abt2 {
+    width: 100%;
+    height: 21px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: okra,helvetica,sans-serif;
+    color: #696969;
+    text-decoration: none;
+}
+.logo400 {
+    height: 22px;
+    width: 22px;
+    margin-right: 8px;
+}
+.logo500 {
+    height: 100%;
+    width: 100%;
+}
+.logo600 {
+    height: 40px;
+    width: 100%;
+    display: flex;
+}
+.logo601 {
+    height: 40px;
+    width: 137px;
+}
+.logo700 {
+    width: 1100px;
+    height: 0px;
+    margin-top: 50px;
+    margin-bottom: 8px;
+}
+.logo800 {
+    width: 1100px;
+    height: 34px;
+    margin-top: 23px;
+    margin-bottom: 13px;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: okra,helvetica,sans-serif;
+    color: rgb(79,79,79);
+}

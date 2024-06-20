@@ -1,0 +1,144 @@
+.top5 {
+    width: 100%;
+    height: 480px;
+    background-color: #FFFBF7;
+    margin-top: 100px;
+    padding-top: 30px;
+}
+.top5_1 {
+    height: 450px;
+    width: 740px;
+    display: flex;
+    margin-left: 22rem;
+}
+.top5_1a {
+    width: 250px;
+    height: 450px;
+    margin-right: 20px;
+}
+.top5_1b {
+    height: 100%;
+    width: 100%;
+}
+.logo60 {
+    width: 250px;
+    height: 250px;
+    transform: translateY(100px);
+}
+.top5_2a {
+    width: 470px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.txt70 {
+    width: 450px;
+    height: 56px;
+    margin: 0px 0px 15px;
+}
+.random {
+    height: 100%;
+    color: #1C1C1C;
+    font-size: 44px;
+    font-weight: 500;
+    margin: 0px;
+}
+.para1 {
+    width: 450px;
+    height: 64px;
+    margin: 0px 0px 25px;
+    color: #363636;
+    font-size: 17px;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top5_2b {
+    width: 225px;
+    height: 38.2px;
+    display: flex;
+}
+.top5_2c {
+    width: 450px;
+    height: 63px;
+    margin: 0px 0px 10px;
+    display: flex;
+}
+.mail {
+    height: 63px;
+    width: 292px;
+    display: flex;
+    flex-direction: column;
+}
+.write10 {
+    width: 292px;
+    height: 48px;
+    padding: 12px 13px;
+    border: 1px solid rgb(207,207,207);
+    border-radius: 6px;
+    background-color: rgb(255,255,255);
+}
+.txt80 {
+    height: 100%;
+}
+.txt81 {
+    height:22.4px ;
+    width: 264.4px;
+    border: none;
+    outline: none;
+    padding: 0px;
+}
+.alert {
+    padding: 0px;
+    margin: 2px 0px 0px;
+    height: 13px;
+}
+.button10 {
+    width: 158px;
+    height: 48px;
+    background-color: #EF4F5F;
+    border-radius: 6px;
+    margin-left: 8px;
+}
+.daba {
+    width: 150px;
+    height: 48px;
+    padding: 0px 16px;
+    display: flex;
+}
+.write20 {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 20.8px;
+    width: 100%;
+    margin-top: 13px;
+    margin-left: 5px;
+}
+.txt110 {
+    width: 450px;
+    height: 21px;
+    margin: 0px 0px 15px;
+    color: #9C9C9C;
+    font-size: 14PX;
+}
+.links {
+    width: 450px;
+    height: 40px;
+    display: flex;
+}
+.links1 {
+    width: 137px;
+    height: 40px;
+}
+.links2 {
+    width: 137px;
+    height: 40px;
+    margin-left: 20px;
+}
+.img20 {
+    width: 137px;
+    height: 40px;
+}
