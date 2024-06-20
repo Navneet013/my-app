@@ -1,49 +1,35 @@
 import React, { useState } from 'react'
 import './Explore.css'
+import ExploreComponent from './ExploreComponent'
+import GridExploreComponent from './GridExploreComponent'
 export default function Explore() {
-    const[isopen,setisopen] = useState(false);
+
+
+    const popularCusines = ['Bakery food near me','Beverages food near me','Biryani food near me', 'Burger food near me','Chinese food near me', 'Coffee food near me','Desserts food near me','Momos food near me','Mughlai food near me','North Indian food near me','Pasta food near me','Pizza food near me','Rolls food near me','Sandwich food near me','Seafood food near me','Shake food near me','South Indian food near me','Street food near me','Tea food near me','Wraps food near me']
+    const resturantsNearMe = ['Bakeries near me','Beverage Shops near me','Cafés near me','Casual Dining near me','Dhabas near me','Food Courts near me','Food Trucks near me','Quick Bites near me','Sweet Shops near me']
+    let cities = [
+    "Delhi NCR", "Kolkata", "Mumbai", "Bengaluru", "Pune", "Hyderabad",
+    "Chennai", "Lucknow", "Kochi", "Jaipur", "Ahmedabad", "Chandigarh",
+    "Goa", "Indore", "Gangtok", "Nashik", "Ooty", "Shimla", "Ludhiana",
+    "Guwahati", "Amritsar", "Kanpur", "Allahabad", "Aurangabad", "Bhopal",
+    "Ranchi", "Visakhapatnam", "Bhubaneswar", "Coimbatore", "Mangalore",
+    "Vadodara", "Nagpur", "Agra", "Dehradun", "Mysore", "Puducherry",
+    "Surat", "Varanasi", "Patna", "Udaipur", "Srinagar", "Khajuraho",
+    "Neemrana", "Cuttack", "Trivandrum", "Haridwar", "Leh", "Pushkar",
+    "Rajkot", "Madurai", "Kozhikode", "Alappuzha", "Thrissur", "Manipal",
+    "Vijayawada", "Jodhpur", "Kota", "Ajmer", "Mussoorie", "Rishikesh",
+    "Jalandhar", "Jammu", "Manali"
+];
 
   return (
     <div className='top6'>
-<div className="top6_1">
+    <div className="top6_1">
     <p className='txt130'>Explore options near me</p>
-    <div className="top6_1a" onClick={()=> setisopen(!isopen)}>
-    {isopen && (
-    <div className="something">
-        <p>hello</p>
-    </div>
-)}
-        <div className="top6_1b">
-            <h5 className="txt140">Popular cuisines near me</h5>
-            <div className="logo100">
-<svg className='logo52' xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="18" height="18" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 iwHbVQ"><title>chevron-down</title><path d="M4.48 7.38c0.28-0.28 0.76-0.28 1.060 0l4.46 4.48 4.48-4.48c0.28-0.28 0.76-0.28 1.060 0s0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0l-5-5c-0.3-0.28-0.3-0.76 0-1.060z"></path></svg>
-</div>
-        </div>
-    </div>
-    <div className="top6_1a">
-        <div className="top6_1b">
-            <h5 className="txt140">Popular restaurant types near me</h5>
-            <div className="logo100">
-<svg className='logo53' xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="18" height="18" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 iwHbVQ"><title>chevron-down</title><path d="M4.48 7.38c0.28-0.28 0.76-0.28 1.060 0l4.46 4.48 4.48-4.48c0.28-0.28 0.76-0.28 1.060 0s0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0l-5-5c-0.3-0.28-0.3-0.76 0-1.060z"></path></svg>
-</div>
-        </div>
-    </div>
-    <div className="top6_1a">
-        <div className="top6_1b">
-            <h5 className="txt140">Top Restaurant Chains</h5>
-            <div className="logo100">
-<svg className='logo54' xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="18" height="18" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 iwHbVQ"><title>chevron-down</title><path d="M4.48 7.38c0.28-0.28 0.76-0.28 1.060 0l4.46 4.48 4.48-4.48c0.28-0.28 0.76-0.28 1.060 0s0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0l-5-5c-0.3-0.28-0.3-0.76 0-1.060z"></path></svg>
-</div>
-        </div>
-    </div>
-    <div className="top6_1f">
-        <div className="top6_1b">
-            <h5 className="txt140">Cities We Deliver To</h5>
-            <div className="logo100">
-<svg className='logo55' xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="18" height="18" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 iwHbVQ"><title>chevron-down</title><path d="M4.48 7.38c0.28-0.28 0.76-0.28 1.060 0l4.46 4.48 4.48-4.48c0.28-0.28 0.76-0.28 1.060 0s0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0l-5-5c-0.3-0.28-0.3-0.76 0-1.060z"></path></svg>
-</div>
-        </div>
-    </div>
+    
+    <ExploreComponent title='Popular cuisines near me' content={popularCusines}/>
+    <ExploreComponent title='Popular restaurant types near me' content={resturantsNearMe}/>
+    <GridExploreComponent title='Cities We Deliver To' content={cities}/>
+
 </div>
     </div>
   )
