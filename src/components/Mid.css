@@ -151,33 +151,41 @@
     height: 100%;
     width: 100%;
     background-image: url(https://b.zmtcdn.com/data/collections/684397cd092de6a98862220e8cc40aca_1709810183.png?output-format=webp);
-    background-size: 100%;
+    background-size: 120%;
+    background-position: 50%;
     border-radius: 7px;
     animation: blur 1s;
+    filter: brightness(80%);
 }
 .photo11 {
     height: 100%;
     width: 100%;
     background-image: url(https://b.zmtcdn.com/data/collections/fbd237478a5d3b6ea08de83c30230cdd_1705558245.png?output-format=webp);
-    background-size: 100%;
+    background-size: 120%;
+    background-position: 50%;
     border-radius: 7px;
     animation: blur 1s;
+    filter: brightness(80%);
 }
 .photo12 {
     height: 100%;
     width: 100%;
     background-image: url(https://b.zmtcdn.com/data/collections/908aad87392ba1f9526e7b483b94d124_1711107868.jpg?output-format=webp);
-    background-size: 100%;
+    background-size: 120%;
+    background-position: 50%;
     border-radius: 7px;
     animation: blur 1s;
+    filter: brightness(80%);
 }
 .photo13 {
     height: 100%;
     width: 100%;
     background-image: url(https://b.zmtcdn.com/data/collections/7771cf3a18e1da2916794d3998260c69_1705557723.png?output-format=webp);
-    background-size: 100%;
+    background-size: 120%;
+    background-position: 50%;
     border-radius: 7px;
     animation: blur 1s;
+    filter: brightness(80%);
 }
 .txt10 {
     color: #FFFFFF;

@@ -28,6 +28,7 @@ export default function Explore() {
     
     <ExploreComponent title='Popular cuisines near me' content={popularCusines}/>
     <ExploreComponent title='Popular restaurant types near me' content={resturantsNearMe}/>
+    <ExploreComponent title='Top Restaurant Chain'/>
     <GridExploreComponent title='Cities We Deliver To' content={cities}/>
 
 </div>

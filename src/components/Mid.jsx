@@ -62,6 +62,7 @@ export default function Mid() {
   <li>
     <div className='display1'>
 <div className='display1_1'>
+  
 <div className='photo10'>
 <p className="txt10">Top Trending Spots</p>
 <div className="txt10_1">
@@ -73,6 +74,7 @@ export default function Mid() {
   </div>
 </div>
 </div>
+
 </div>
 <div className='display1_2'>
 <div className='photo11'>

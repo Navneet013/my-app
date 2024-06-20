@@ -36,7 +36,7 @@ export default function Topbar() {
           </li>
           <li>
           <div className="heading1">
-<h1>Discover the best food & drinks in Delhi NCR</h1>
+<h1>Discover the best food & drinks in <b className='kuch'>Delhi NCR</b></h1>
         </div>
           </li>
           <li>
