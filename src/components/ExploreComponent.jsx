@@ -18,7 +18,7 @@ const ExploreComponent = ({title, content,styles}) => {
         </div>
        {isOpen && ( <div>
             <ul className="explore-links">
-                {content.map(links => <li>{links}</li>)}
+                {content.map(links => <li>&bull; {links}</li>)}
             </ul>
         </div>)}
     </div>
