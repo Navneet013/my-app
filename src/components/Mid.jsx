@@ -1,6 +1,11 @@
 import React from 'react'
 import './Mid.css'
 export default function Mid() {
+
+  function loadImageLink(link){
+    window.location.href = link
+  }
+
   return (
     <div className='content'>
 <div className="top2">
@@ -63,11 +68,11 @@ export default function Mid() {
     <div className='display1'>
 <div className='display1_1'>
   
-<div className='photo10'>
-<p className="txt10">Top Trending Spots</p>
+<div className='photo10' onClick={()=>loadImageLink('')}>
+<p className="txt10 explore-cards-headings">Top Trending Spots</p>
 <div className="txt10_1">
   <div>
-    <h6>30 Places</h6>
+    <h6 className='explore-cards-headings'>30 Places</h6>
   </div>
   <div className="logo10">
   <i class="sc-rbbb40-1 iFnyeo" size="10" color="#FFFFFF"><svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="10" height="10" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 gvsUip"><title>right-triangle</title><path d="M5 0.42l10 10-10 10v-20z"></path></svg></i>
@@ -77,11 +82,11 @@ export default function Mid() {
 
 </div>
 <div className='display1_2'>
-<div className='photo11'>
-<p className="txt10">Best insta-worthy Places</p>
+<div className='photo11' onClick={()=>loadImageLink('')}>
+<p className="txt10 explore-cards-headings">Best insta-worthy Places</p>
 <div className="txt10_1">
   <div>
-    <h6>32 Places</h6>
+    <h6 explore-cards-headings>32 Places</h6>
   </div>
   <div className="logo10">
   <i class="sc-rbbb40-1 iFnyeo" size="10" color="#FFFFFF"><svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="10" height="10" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 gvsUip"><title>right-triangle</title><path d="M5 0.42l10 10-10 10v-20z"></path></svg></i>
@@ -90,11 +95,11 @@ export default function Mid() {
 </div>
 </div>
 <div className='display1_2'>
-<div className='photo12'>
-<p className="txt10">Best of live-screenings</p>
+<div className='photo12' onClick={()=>loadImageLink('')}>
+<p className="txt10 explore-cards-headings">Best of live-screenings</p>
 <div className="txt10_1">
   <div>
-    <h6>46 Places</h6>
+    <h6 explore-cards-headings>46 Places</h6>
   </div>
   <div className="logo10">
   <i class="sc-rbbb40-1 iFnyeo" size="10" color="#FFFFFF"><svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="10" height="10" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 gvsUip"><title>right-triangle</title><path d="M5 0.42l10 10-10 10v-20z"></path></svg></i>
@@ -103,11 +108,11 @@ export default function Mid() {
 </div>
 </div>
 <div className='display1_3'>
-<div className='photo13'>
-<p className="txt10">Newly Opened Places</p>
+<div className='photo13' onClick={()=>loadImageLink('')}>
+<p className="txt10 explore-cards-headings">Newly Opened Places</p>
 <div className="txt10_1">
   <div>
-    <h6>19 Places</h6>
+    <h6 explore-cards-headings>19 Places</h6>
   </div>
   <div className="logo10">
   <i class="sc-rbbb40-1 iFnyeo" size="10" color="#FFFFFF"><svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="10" height="10" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 gvsUip"><title>right-triangle</title><path d="M5 0.42l10 10-10 10v-20z"></path></svg></i>
