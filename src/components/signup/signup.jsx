@@ -1,19 +1,34 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './signup.css'
-export default function signup() {
-  return (
-    <div className='whole'>
-        <div className="whole1">
-            <div className="whole2">
-                <div className="map">
-<h2 className='txt400'>Sign Up</h2>
-<div className="logo400">
-    
-</div>
-                </div>
+const LoginPopup = ({setShowLogin}) => {
 
-            </div>
-        </div>
+  const[currState,setCurrState] = useState("Sign Up")
+
+  return (
+    <div className='login-popup'>
+     <form className="login-popup-container">
+      <div className="login-popup-title">
+        <h2>{currState}</h2>
+        <img onClick={()=>setShowLogin(false)} src={'https://cdn.vectorstock.com/i/1000x1000/11/47/x-mark-cross-isolated-flat-web-mobile-icon-stock-vector-37541147.webp'} alt="" />
+      </div>
+      <div className="login-popup-inputs">
+        {currState==="Login"?<></>: <input type="text" placeholder='Your name'  required/>}
+        <input type="email" placeholder='Your email' required/>
+        <input type="password" placeholder='Password' required />
+      </div>
+      <button>{currState==="Sign Up"?"Create":"Login"}</button>
+      <div className='login-popup-condition'>
+          <input type="checkbox" />
+          <p>By continuing, i agree to the terms of use & privacy policy.</p>
+      </div>
+      {currState==="Login"
+      ? <p>Create a new account? <span onClick={()=>setCurrState("Sign Up")}>Click here</span></p>
+      :<p>Already have an account? <span onClick={()=>setCurrState("Login")}>Login here</span></p>
+      }
+      
+     </form>
     </div>
   )
 }
+
+export default LoginPopup

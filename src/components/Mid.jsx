@@ -9,7 +9,7 @@ export default function Mid() {
   return (
     <div className='content'>
 <div className="top2">
-    <a href="/">
+    <a href="https://www.zomato.com/ncr/order-food-online?delivery_subzone=316">
     <div className="top2_1">
         <div className='top2_a'>
 <img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="" className='img2' />
@@ -20,7 +20,7 @@ export default function Mid() {
         </div>
     </div>
     </a>
-    <a href="/">
+    <a href="https://www.zomato.com/ncr/dine-out">
     <div className="top2_2">
         <div className='top2_a'>
 <img src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="" className='img2' />
@@ -31,7 +31,7 @@ export default function Mid() {
         </div>
     </div>
     </a>
-    <a href="/">
+    <a href="https://www.zomato.com/ncr/drinks-and-nightlife">
     <div className="top2_3">
         <div className='top2_a'>
 <img src="https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="" className='img2' />
@@ -68,7 +68,7 @@ export default function Mid() {
     <div className='display1'>
 <div className='display1_1'>
   
-<div className='photo10' onClick={()=>loadImageLink('')}>
+<div className='photo10' onClick={()=>loadImageLink('https://www.zomato.com/ncr/trending-this-week')}>
 <p className="txt10 explore-cards-headings">Top Trending Spots</p>
 <div className="txt10_1">
   <div>
@@ -82,7 +82,7 @@ export default function Mid() {
 
 </div>
 <div className='display1_2'>
-<div className='photo11' onClick={()=>loadImageLink('')}>
+<div className='photo11' onClick={()=>loadImageLink('https://www.zomato.com/ncr/trending-this-week')}>
 <p className="txt10 explore-cards-headings">Best insta-worthy Places</p>
 <div className="txt10_1">
   <div>
@@ -95,7 +95,7 @@ export default function Mid() {
 </div>
 </div>
 <div className='display1_2'>
-<div className='photo12' onClick={()=>loadImageLink('')}>
+<div className='photo12' onClick={()=>loadImageLink('https://www.zomato.com/ncr/live-sports-screenings')}>
 <p className="txt10 explore-cards-headings">Best of live-screenings</p>
 <div className="txt10_1">
   <div>
@@ -108,7 +108,7 @@ export default function Mid() {
 </div>
 </div>
 <div className='display1_3'>
-<div className='photo13' onClick={()=>loadImageLink('')}>
+<div className='photo13' onClick={()=>loadImageLink('https://www.zomato.com/ncr/newly-opened')}>
 <p className="txt10 explore-cards-headings">Newly Opened Places</p>
 <div className="txt10_1">
   <div>
