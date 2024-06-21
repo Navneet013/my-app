@@ -1,7 +1,6 @@
 import React from 'react'
-
 import './Topbar.css'
-export default function Topbar() {
+export default function Topbar({setShowLogin}) {
   return (
     <div className='imagebox'>
        <div className='toprow'>
@@ -24,7 +23,7 @@ export default function Topbar() {
   <a href="/" className='text'>Log in</a>
 </div>
 <div className='signup'>
-<a href="/" className='text'>Sign up</a>
+<a href="/" onClick={()=>setShowLogin(true)} className='text'>Sign up</a>
 </div>
 </div>
        </div>
