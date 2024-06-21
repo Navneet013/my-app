@@ -86,7 +86,7 @@ export default function Mid() {
 <p className="txt10 explore-cards-headings">Best insta-worthy Places</p>
 <div className="txt10_1">
   <div>
-    <h6 explore-cards-headings>32 Places</h6>
+    <h6 explore-cards-headings>33 Places</h6>
   </div>
   <div className="logo10">
   <i class="sc-rbbb40-1 iFnyeo" size="10" color="#FFFFFF"><svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="10" height="10" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 gvsUip"><title>right-triangle</title><path d="M5 0.42l10 10-10 10v-20z"></path></svg></i>

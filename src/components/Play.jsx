@@ -38,7 +38,7 @@ export default function Play() {
                 Download App from
               </p>
               <div className="links">
-                  <a  href="/">
+                  <a  href="https://play.google.com/store/apps/details?id=com.application.zomato&hl=en_IN&gl=US">
                   <div className="links1">
                     <img className='img20' src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="" />
                   </div>
