@@ -11,10 +11,10 @@
     filter: blur(8px);
   }
   50% {
-    filter: blur(5px)
+    filter: blur(5px);
   }
   100% {
-    filter: blur(0px)
+    filter: blur(0px);
   }
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
@@ -85,6 +85,7 @@
   text-decoration: none;
   font-size: 19px;
   font-weight: 350;
+  cursor: pointer;
 }
 .downrow {
   height: 222px;
@@ -135,7 +136,7 @@
   padding-top: 1.7rem;
 }
 .box {
-  width: 774.60px;
+  width: 774.6px;
   height: 52.4px;
   background-color: #ffffff;
   border-radius: 6px;

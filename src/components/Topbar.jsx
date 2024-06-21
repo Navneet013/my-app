@@ -23,7 +23,7 @@ export default function Topbar({setShowLogin}) {
   <a href="/" className='text'>Log in</a>
 </div>
 <div className='signup'>
-<a href="/" onClick={()=>setShowLogin(true)} className='text'>Sign up</a>
+<span onClick={()=>setShowLogin(true)} className='text'>Sign up</span>
 </div>
 </div>
        </div>
